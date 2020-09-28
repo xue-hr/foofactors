@@ -2,3 +2,5 @@
 
 export(fbind)
 export(fcount)
+importFrom(Rcpp,sourceCpp)
+useDynLib(foofactors, .registration = TRUE)
